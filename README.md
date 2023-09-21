@@ -19,7 +19,7 @@ Transfer the iso file to server and set up with 1 gig ram, minimum 8 gig storage
 <br><br><br>
 
 ![alt text](https://github.com/tg222eu/PFsenseInstallation/blob/main/UFS.JPG)<br>
-Follow the guideline during installation. When asked for a partision choose Auto(UFS) and then GPT. Reboot when finished installing
+Follow the guideline during installation. When asked for a partision choose Auto(UFS) -> Entire disk -> then GPT. Reboot when finished installing
 <br><br><br>
 
 ![alt text](https://github.com/tg222eu/PFsenseInstallation/blob/main/vlan.JPG)<br>
@@ -37,7 +37,7 @@ Password: PFsense
 <br><br><br>
 
 ![alt text](https://github.com/tg222eu/PFsenseInstallation/blob/main/firstwebgui.JPG)<br>
-When logged into the web UI a wizard button will appear on the front page. Click on it, and follow the instructions
+When logged into the web UI a setuip wizard will appear on the front page , and follow the instructions
   - Hostname: Any
   - domain: Localdomain
   - DNS: 8.8.8.8
@@ -46,7 +46,7 @@ Leave time server hostname to default
 <br><br><br>
 
 ![alt text](https://github.com/tg222eu/PFsenseInstallation/blob/main/secondwebgui.JPG)<br>
-Change WAN interface to "Static". Give the IP address that was given to the firewall and set gateway stream to the router thats connected to the internet
+Change WAN interface to "Static". Give the IP address that was given to the firewall, set subnet mask to 24 and set gateway stream to the router thats connected to the internet
 
 <br><br><br>
 
