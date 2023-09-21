@@ -50,6 +50,7 @@ Change WAN interface to "Static". Give the IP address that was given to the fire
 
 <br><br><br>
 
+![alt text](https://github.com/tg222eu/PFsenseInstallation/blob/main/rules.JPG)<br>
 Now we need to set some firewall rules. Go to firewall -> Rules. Click the add button. Under Source, change to network, set it to your subnet, in my case its 192.168.2.0/24. Leave everything els on default and hit save
 
 <br><br><br>
