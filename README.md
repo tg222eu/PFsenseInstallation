@@ -41,12 +41,13 @@ When logged into the web UI a wizard button will appear on the front page. Click
   - Hostname: Any
   - domain: Localdomain
   - DNS: 8.8.8.8
+
+Leave time server hostname to default
 <br><br><br>
 
 ![alt text](https://github.com/tg222eu/PFsenseInstallation/blob/main/secondwebgui.JPG)<br>
 Change WAN interface to "Static". Give the IP address that was given to the firewall and set gateway stream to the router thats connected to the internet
 
-Leave time server hostname to default
 <br><br><br>
 
 ![alt text](https://github.com/tg222eu/PFsenseInstallation/blob/main/client.JPG)<br>
